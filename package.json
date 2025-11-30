@@ -1,0 +1,14 @@
+{
+  "name": "arcade-game-launcher",
+  "description": "Arcade fullscreen Construct 3 game",
+  "version": "1.0.0",
+  "main": "game/index.html",
+  "window": {
+    "fullscreen": true,
+    "kiosk": true,
+    "frame": false,
+    "resizable": false,
+    "always-on-top": true
+  },
+  "chromium-args": "--disable-pinch --overscroll-history-navigation=0 --disable-infobars --kiosk-printing"
+}
